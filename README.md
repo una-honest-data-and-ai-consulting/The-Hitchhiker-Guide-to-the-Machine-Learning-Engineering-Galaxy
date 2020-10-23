@@ -1,7 +1,3 @@
-# The-Hitchhiker-Guide-to-the-Machine-Learning-Engineering-Galaxy
-
-A workshop on how to start with MLOPS for ML Conf EU 2020 
-
 ## Intro
 Are you a Software Engineer who got tasked to deploy a machine learning or deep learning model for the first time in your life? Are you wondering what steps to take and how AI-powered software is different from traditional software? Then it is the right workshop to attend.
 

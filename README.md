@@ -1,6 +1,6 @@
-# WIP: The Hitchhiker's Guide to the Machine Learning Engineering Galaxy
+# The Hitchhiker's Guide to the Machine Learning Engineering Galaxy
 
-A workshop on how to start with MLOps for ML Conf EU 2020
+A workshop on how to start with MLOps for [ML Conf EU 2020](https://mlconf.eu/)
 
 ## Intro
 Are you a Software Engineer who got tasked to deploy a machine learning or deep learning model for the first time in your life? Are you wondering what steps to take and how AI-powered software is different from traditional software? Then it is the right workshop to attend.
@@ -14,8 +14,14 @@ The internet offers thousands of articles and free of charge courses, showing ho
 - ML Platform: what is this?
 - Hands-on with AI pipelines
 
-## Prerequisites 
-To get the most out of the workshop working knowledge of Python is required. No Machine Learning background is assumed.
-
 ## Workshop level
 Great for software engineers who got tasked with AI model deployment for the first time. No ML knowledge is assumed.
+
+## Prerequisites 
+To get the most out of the workshop working knowledge of Python is required. No Machine Learning background is assumed.
+- [git](https://git-scm.com/downloads)
+- [miniconda](https://docs.conda.io/en/latest/miniconda.html)
+
+## How to use
+1. Start with this [presentation](...).
+2. Open this [README.md](...) and follow the steps.

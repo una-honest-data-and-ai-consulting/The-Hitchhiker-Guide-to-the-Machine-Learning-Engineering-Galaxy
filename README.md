@@ -23,5 +23,5 @@ To get the most out of the workshop working knowledge of Python is required. No 
 - [miniconda](https://docs.conda.io/en/latest/miniconda.html)
 
 ## How to use
-1. Start with this [presentation](...).
-2. Open this [README.md](...) and follow the steps.
+1. Navigate to `workshop` folder and start with this [presentation](...).
+2. Open this [README.md](...) and follow the hands-on part.

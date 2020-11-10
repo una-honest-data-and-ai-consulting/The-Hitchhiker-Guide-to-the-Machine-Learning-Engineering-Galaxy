@@ -19,3 +19,15 @@ class BatchModel(Model):
         predictions: Predictions of the model. For example: a numpy array
         '''
         pass
+
+    def metadata(self):
+        pass
+
+    def scheme_input_data(self):
+        pass
+
+    def scheme_output_data(self):
+        pass
+
+    def preprocess_data(self, data):
+        pass

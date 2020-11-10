@@ -18,7 +18,7 @@ The internet offers thousands of articles and free of charge courses, showing ho
 Great for software engineers who got tasked with AI model deployment for the first time. No ML knowledge is assumed.
 
 ## Prerequisites 
-To get the most out of the workshop working knowledge of Python is required. No Machine Learning background is assumed.
+No Machine Learning background is assumed.
 
 ## How to use
 1. Start with this [presentation](https://github.com/EzheZhezhe/The-Hitchhiker-Guide-to-the-Machine-Learning-Engineering-Galaxy/blob/main/workshop/MLconfEU_presentation.pptx).

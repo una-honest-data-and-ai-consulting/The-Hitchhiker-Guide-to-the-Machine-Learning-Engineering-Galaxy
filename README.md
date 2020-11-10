@@ -19,8 +19,6 @@ Great for software engineers who got tasked with AI model deployment for the fir
 
 ## Prerequisites 
 To get the most out of the workshop working knowledge of Python is required. No Machine Learning background is assumed.
-- [git](https://git-scm.com/downloads)
-- [miniconda](https://docs.conda.io/en/latest/miniconda.html)
 
 ## How to use
 1. Start with this [presentation](https://github.com/EzheZhezhe/The-Hitchhiker-Guide-to-the-Machine-Learning-Engineering-Galaxy/workshop/MLconEU_presentation.pptx).

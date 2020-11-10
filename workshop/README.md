@@ -21,6 +21,8 @@ Today we will explore 2 types of model deployment:
 
 **End user**: usually no direct interactions with a model. User interacts with the predictions stored in a data storage as a result of the batch jobs.
 
+**Validation**: offline
+
 -------
 
 ## Online serving - near real-time
@@ -32,3 +34,22 @@ Online inference is definitely more challenging than batch inference. Why? Due t
 **What to optimize**: latency
 
 **End user**: usually interacts with a model directly available through an API
+
+**Validation**: offline and online via A/B testing
+
+_______
+
+## Where to go next?
+
+- [Full Stack Deep Learning Deployment](https://fullstackdeeplearning.com/)
+- [Fighting Machine Learning Technical Debt](https://matthewmcateer.me/blog/machine-learning-technical-debt/)
+- [Monitoring ML models](https://christophergs.com/machine%20learning/2020/03/14/how-to-monitor-machine-learning-models/)
+- [Model serving flavours](https://github.com/schmidtbri)
+- [Productionizing NLP models](https://medium.com/modern-nlp/productionizing-nlp-models-9a2b8a0c7d14)
+
+## Favourite open-source tools
+- [DVC](https://dvc.org/) - Data versioning, Version control system for ML Projects
+- [Pachyderm](https://www.pachyderm.com/) - Data lineage, e2e pipelines on k8s
+- [mlflow](https://mlflow.org/) - Experiment tracking, Model registry, Conda based Projects
+- [Seldon core](https://docs.seldon.io/projects/seldon-core/en/v1.1.0/) - ML models serving as REST/GRPS microservices running on k8s
+- [TensorFlow Extended](https://www.tensorflow.org/tfx) - e2e production ML pipelines

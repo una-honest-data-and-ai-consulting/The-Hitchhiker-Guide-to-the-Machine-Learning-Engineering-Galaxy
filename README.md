@@ -21,5 +21,5 @@ Great for software engineers who got tasked with AI model deployment for the fir
 To get the most out of the workshop working knowledge of Python is required. No Machine Learning background is assumed.
 
 ## How to use
-1. Start with this [presentation](https://github.com/EzheZhezhe/The-Hitchhiker-Guide-to-the-Machine-Learning-Engineering-Galaxy/workshop/MLconEU_presentation.pptx).
-2. Open this [README.md](https://github.com/EzheZhezhe/The-Hitchhiker-Guide-to-the-Machine-Learning-Engineering-Galaxy/workshop/README.md) and follow the hands-on part.
+1. Start with this [presentation](https://github.com/EzheZhezhe/The-Hitchhiker-Guide-to-the-Machine-Learning-Engineering-Galaxy/blob/main/workshop/MLconfEU_presentation.pptx).
+2. Open this [README.md](https://github.com/EzheZhezhe/The-Hitchhiker-Guide-to-the-Machine-Learning-Engineering-Galaxy/blob/main/workshop/README.md) and follow the hands-on part.

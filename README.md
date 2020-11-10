@@ -23,5 +23,5 @@ To get the most out of the workshop working knowledge of Python is required. No 
 - [miniconda](https://docs.conda.io/en/latest/miniconda.html)
 
 ## How to use
-1. Navigate to `workshop` folder and start with this [presentation](...).
-2. Open this [README.md](...) and follow the hands-on part.
+1. Start with this [presentation](https://github.com/EzheZhezhe/The-Hitchhiker-Guide-to-the-Machine-Learning-Engineering-Galaxy/workshop/MLconEU_presentation.pptx).
+2. Open this [README.md](https://github.com/EzheZhezhe/The-Hitchhiker-Guide-to-the-Machine-Learning-Engineering-Galaxy/workshop/README.md) and follow the hands-on part.

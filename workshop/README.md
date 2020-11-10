@@ -3,10 +3,10 @@
 In order to answer the question "How to deploy a model?" we need to understand how end users are going to interact with the predictions from our model.
 
 There are multiple factors to consider when determining how to deploy a machine learning model:
-- frequency of predictions
-- how predictions will be generated (single request or batch)
-- which applications will use our model
-- latency requrements
+- interactive or non-interactive use
+- single record or batch
+- synchronous or asynchronous
+- real-time or near real-time or non-real-time
 
 Today we will explore 2 types of model deployment:
 - Offline serving – batch
@@ -31,4 +31,4 @@ Online inference is definitely more challenging than batch inference. Why? Due t
 
 **What to optimize**: latency
 
-**End user**: usually directly interacts with a model exposed via API.
+**End user**: usually interacts with a model directly available through an API

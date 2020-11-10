@@ -1,4 +1,4 @@
-class OnlineModel(object):
+class OnlineModel(Model):
 
     def __init__(self, model):
         self.model = model

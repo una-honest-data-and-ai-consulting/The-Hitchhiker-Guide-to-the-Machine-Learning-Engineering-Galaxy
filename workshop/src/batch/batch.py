@@ -1,4 +1,4 @@
-class BatchModel(object):
+class BatchModel(Model):
 
     def __init__(self, model):
         self.model = model

@@ -48,6 +48,8 @@ _______
 - [Productionizing NLP models](https://medium.com/modern-nlp/productionizing-nlp-models-9a2b8a0c7d14)
 
 ## Favourite open-source tools
+- [miniconda](https://docs.conda.io/en/latest/miniconda.html) - Package, dependency and environment management for any language: Python, R,
+Ruby, Scala, Java, JavaScript, C/ C++
 - [DVC](https://dvc.org/) - Data versioning, Version control system for ML Projects
 - [Pachyderm](https://www.pachyderm.com/) - Data lineage, e2e pipelines on k8s
 - [mlflow](https://mlflow.org/) - Experiment tracking, Model registry, Conda based Projects

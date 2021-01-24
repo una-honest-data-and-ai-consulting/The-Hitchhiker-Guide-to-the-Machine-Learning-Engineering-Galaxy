@@ -74,7 +74,7 @@ Ruby, Scala, Java, JavaScript, C/ C++
 
 - [MLOps](https://ml-ops.org/)
 - [Awesome MLOps](https://github.com/visenger/awesome-mlops)
-- [Awseome Production ML](https://github.com/EthicalML/awesome-production-machine-learning)
+- [Awesome Production ML](https://github.com/EthicalML/awesome-production-machine-learning)
 - [Fighting Machine Learning Technical Debt](https://matthewmcateer.me/blog/machine-learning-technical-debt/)
 - [Model serving flavours](https://github.com/schmidtbri)
 - [Monitoring ML models](https://christophergs.com/machine%20learning/2020/03/14/how-to-monitor-machine-learning-models/)

@@ -1,35 +1,40 @@
-# Hands-on with AI-pipelines
+# Hands-on with ML serving pipelines
 
-In order to answer the question "How to deploy a model?" we need to understand how end users are going to interact with the predictions from our model.
-
-There are multiple factors to consider when determining how to deploy a machine learning model:
-- interactive or non-interactive use
+In order to answer the question "How to deploy a model?" we need to understand how end users are going to interact with our model:
+- interactive or non-interactive
 - single record or batch
 - synchronous or asynchronous
-- real-time or near real-time or non-real-time
+- real-time or non-real-time
 
-Today we will explore 2 types of model deployment:
-- Offline serving – batch
-- Online serving - near real-time
+Today we will explore 3 flavours of model deployments:
+- Batch serving
+- Online serving near real-time
+- Real-time serving with embedded model
+
+Each flavour has its own dedicated repository.
 
 ------
-## Offline serving – batch
+## Batch serving
 
-**Batch inference** is about running prediction jobs on schedule: once a week, once a day, once an hour.
+**Batch inference** is about using data distributed processing infrastructure to carry out inference asynchronously on a large number of instances at once.
 
-**What to optimize**: throughput
+
+**What to optimize**: throughput, not latency-sensitive
 
 **End user**: usually no direct interactions with a model. User interacts with the predictions stored in a data storage as a result of the batch jobs.
 
 **Validation**: offline
 
+
+To [GitHub repo](https://github.com/EzheZhezhe/ML-Batch-Serving)
+
 -------
 
-## Online serving - near real-time
+## Online serving near real-time
 
 Online inference is definitely more challenging than batch inference. Why? Due to the latency restrictions on our systems.
 
-**Online inference** is about responding with a prediction to the request of the end user with a latency measured in miliseconds.
+**Online inference** is about responding with a prediction to the request of the end user with a low latency.
 
 **What to optimize**: latency
 
@@ -37,15 +42,22 @@ Online inference is definitely more challenging than batch inference. Why? Due t
 
 **Validation**: offline and online via A/B testing
 
+To [GitHub repo](https://github.com/EzheZhezhe/ML-Online-Near-real-time-Serving)
+
 _______
 
-## Where to go next?
+## Real-time serving with embedded model
 
-- [Full Stack Deep Learning Deployment](https://fullstackdeeplearning.com/)
-- [Fighting Machine Learning Technical Debt](https://matthewmcateer.me/blog/machine-learning-technical-debt/)
-- [Monitoring ML models](https://christophergs.com/machine%20learning/2020/03/14/how-to-monitor-machine-learning-models/)
-- [Model serving flavours](https://github.com/schmidtbri)
-- [Productionizing NLP models](https://medium.com/modern-nlp/productionizing-nlp-models-9a2b8a0c7d14)
+**Real-time serving with embedded model** is about distributed event-at-a-time processing with millisecond latency and high throughput.
+
+**What to optimize**: latency and throughput
+
+**End user**: usually no direct interactions with a model
+
+**Validation**: offline and online via A/B testing
+
+To [GitHub repo](https://github.com/EzheZhezhe/ML-Real-time-serving-with-Embedded-Model)
+_______
 
 ## Favourite open-source tools
 - [miniconda](https://docs.conda.io/en/latest/miniconda.html) - Package, dependency and environment management for any language: Python, R,
@@ -55,3 +67,14 @@ Ruby, Scala, Java, JavaScript, C/ C++
 - [mlflow](https://mlflow.org/) - Experiment tracking, Model registry, Conda based Projects
 - [Seldon core](https://docs.seldon.io/projects/seldon-core/en/v1.1.0/) - ML models serving as REST/GRPS microservices running on k8s
 - [TensorFlow Extended](https://www.tensorflow.org/tfx) - e2e production ML pipelines
+
+---
+
+## Where to go next?
+
+- [MLOps](https://ml-ops.org/)
+- [Awesome MLOps](https://github.com/visenger/awesome-mlops)
+- [Awseome Production ML](https://github.com/EthicalML/awesome-production-machine-learning)
+- [Fighting Machine Learning Technical Debt](https://matthewmcateer.me/blog/machine-learning-technical-debt/)
+- [Model serving flavours](https://github.com/schmidtbri)
+- [Monitoring ML models](https://christophergs.com/machine%20learning/2020/03/14/how-to-monitor-machine-learning-models/)
